@@ -17,17 +17,17 @@ function generaNumeroRandom(min,max) {
 }
 
 let numeroComputer = '';
-for (let i = 0; i < 1; i++) {
+//for (let i = 0; i < 1; i++) {
     numeroComputer = generaNumeroRandom(1 , 5);
     console.log(numeroComputer);
-}
+//}
 
 const somma = numeroUtente + numeroComputer;
 console.log('----------------------');
 console.log(somma);
 
-function pariODispari(numero) {
-    if(numero % 2 == 0) {
+function pariODispari(x) {
+    if(x % 2 == 0) {
         return 'pari';
     } else {
         return 'dispari';
